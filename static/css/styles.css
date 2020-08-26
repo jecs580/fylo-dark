@@ -1,0 +1,59 @@
+:root{
+    /* Primary */
+    --darkBlueEmail: hsl(217, 28%, 15%);
+    --darkBlueMain: hsl(218, 28%, 13%);
+    --darkBlueFooter: hsl(216, 53%, 9%);
+    --darkBlueTestimonials: hsl(219, 30%, 18%);
+    /* Accent */
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --open-sans:'Open Sans', sans-serif;
+    --raleway:'Raleway', sans-serif;
+   ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size:14px;
+    font-family: var(--open-sans);
+    background: var(--darkBlueMain);
+    color: var(--white);
+}
+.header-grid{
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    font-family: var(--raleway);
+    height: 100px;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding:0;
+}
+
+.menu a{
+    padding: 1em;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.u-wrapper{
+    max-width: 1024px;
+    padding: 0 1em;
+    margin: auto;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
