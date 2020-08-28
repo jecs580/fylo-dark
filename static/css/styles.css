@@ -104,5 +104,36 @@ img{
     font-size: 1.38em;
     font-family: var(--raleway);
 }
+.productive{
+    margin: 0 .35em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+.productive img{
+    max-width: 100%;
+}
+.productive h2{
+    font-size: 1.28em;
+    margin-top: 3em;
+}
+.productive p{
+    margin-right:1em;
+}
+
+.productive a {
+    display: inline-flex;
+    color:var(--cyan);
+    border-bottom: 1px solid var(--cyan);
+    padding-bottom: .3em;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: .5em;
+}
+.productive a img{
+    margin-left: .5em;
+}
+.hidden{
+    display: none;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
