@@ -28,6 +28,10 @@ body{
     /* padding: 0 40px; */
     margin: auto;
 }
+.header{
+    background:#1b2330;
+    background:var(--darkBlueEmail);
+}
 .header-grid{
     display: grid;
     grid-template-columns: auto 1fr ;
@@ -59,6 +63,14 @@ img{
 }
 .hero{
     text-align: center;
+    /* --darkBlueEmail: hsl(217, 28%, 15%);
+    --darkBlueMain: hsl(218, 28%, 13%);
+    --darkBlueFooter: hsl(216, 53%, 9%);
+    --darkBlueTestimonials: hsl(219, 30%, 18 */
+    background:url('../images/bg-curvy-mobile.svg'),linear-gradient(to top, #181e2a 0% ,#181e2a 250px,  var(--darkBlueEmail) 250px, var(--darkBlueEmail) 100%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom 250px, center;
 }
 .hero-grid{
     padding: 1.6em;
