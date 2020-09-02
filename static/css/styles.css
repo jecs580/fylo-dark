@@ -150,7 +150,7 @@ img{
 .comilla{
     width: 20px;
     position: relative;
-    top:.2em;
+    top:.3em;
     left: 2.5em;
 }
 .reviews-grid{
@@ -194,13 +194,15 @@ img{
 
 .form{
     text-align: center;
-    margin: 10em .5em 5em .5em;
+    margin: -6em .5em 5em .5em;
+    position: relative;
+    top: 17em;
 }
 .form-grid{
     background: var(--darkBlueEmail);
     padding:1.2em 1.6em;
     padding-bottom: 3em;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .form input{
     width: 100%;
@@ -221,25 +223,32 @@ img{
 .hidden{
     display: none;
 }
-.footer{
-padding:0 1em;
-}
 .footer-contact{
     margin-bottom: 5em;
     margin-top: 3em;
+    /* font-size: 1.15em; */
 }
 .location{
     background: url(../images/icon-location.svg) no-repeat left top 7px;
-    padding-right: 1.3em;
+    padding-right: 1em;
 }
 .location, .phone, .email{
-    padding-left: 45px;
+    padding-left: 40px;
 }
 .phone{
     background: url(../images/icon-phone.svg) no-repeat left;
+    background-size: 13px;
 }
 .email{
     background: url(../images/icon-email.svg) no-repeat left;
+}
+.footer{
+    background: var(--darkBlueFooter);
+    padding:0 1em;
+    padding-top: 18em;
+}
+.footer-grid{
+    padding-left: 1em;
 }
 .footer ul{
     list-style: none;
