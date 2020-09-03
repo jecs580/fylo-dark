@@ -280,8 +280,25 @@ img{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (min-width:768px){
+    .logo{
+        width: 180px;
+    }
+    .header-grid{
+        height: 150px;
+    }
+    .menu{
+        font-size: 1.3em;
+    }
     .button{
         max-width: 300px;
+    }
+    .hero{
+        padding-bottom: 11em;
+        /* background:url('../images/bg-curvy-desktop.svg'),linear-gradient(to top, #181e2a 0% ,#181e2a 250px,  var(--darkBlueEmail) 250px, var(--darkBlueEmail) 100%); */
+        background:url('../images/bg-curvy-desktop.svg'),var(--darkBlueEmail);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center bottom 0px, center;
     }
     .hero-grid{
         max-width: 650px;
@@ -293,9 +310,15 @@ img{
     .hero p{
         font-size: 1.5em;
     }
+    .feactures{
+        margin-top:0;
+    }
     .feactures-grid{
         grid-template-columns: repeat(2,370px);
         grid-column-gap: 12em;
+    }
+    .feacture-item{
+        max-width: 360px;
     }
     .productive-grid{
         display: grid;
@@ -313,6 +336,9 @@ img{
     .reviews-grid{
         grid-template-columns: repeat(3,1fr);
         grid-column-gap: 2em;
+    }
+    .form{
+        top:170px;
     }
     .form-grid{
         max-width: 700px;
