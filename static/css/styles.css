@@ -23,7 +23,7 @@ body{
     color: var(--white);
 }
 .u-wrapper{
-    max-width: 1024px;
+    max-width: 1240px;
     padding: 0 1em;
     /* padding: 0 40px; */
     margin: auto;
@@ -316,6 +316,8 @@ img{
     .feactures-grid{
         grid-template-columns: repeat(2,370px);
         grid-column-gap: 12em;
+        margin: auto;
+        justify-content: center;
     }
     .feacture-item{
         max-width: 360px;
@@ -328,10 +330,11 @@ img{
     }
     .productive h2{
         font-size: 2em;
-        width: 70%;
+        width: 60%;
     }
     .productive p{
         margin-right:0;
+        width: 82%;
     }
     .reviews-grid{
         grid-template-columns: repeat(3,1fr);
@@ -357,7 +360,51 @@ img{
         grid-column-gap: 2em;
         align-items: center;
     }
+    .form button{
+        padding:16px;
+        margin:0;
+    }
+    .form input{
+        padding: 17.5px 16px;
+    }
+    .footer{
+        padding-top: 13em;
+        padding-bottom: 1em;
+    }
+    .footer * {
+        margin-top: 0 !important;
+    }
+    .footer img{
+        margin-bottom: 2em;
+    }
     .footer-grid{
-
+        display: grid;
+        grid-template-columns: 650px 1fr 1fr 1fr 1fr;
+        grid-column-gap: 2em;
+    }
+    .footer-contact{
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        grid-template-rows: 35px 35px;
+        gap: 0 5em;
+    }
+    .location{
+        /* border: 1px solid red; */
+        grid-row:1/3;
+        background-position: left top 5px;
+    }
+    .email{
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: flex-start;
+        grid-column: 2/3;
+        grid-row:2/2;
+        background-position: left top 2px;
+    }
+    .phone{
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: flex-start;
+        background-position: left top 2px;
     }
 }
